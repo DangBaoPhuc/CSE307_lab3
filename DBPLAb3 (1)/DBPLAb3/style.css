@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+div#img {
+    border: none;
+    vertical-align: top;
+    float: left;
+}
+
+div#gnav {
+    clear: both;
+}
+
+div#layout {
+    border: 1px;
+    margin: 20px auto;
+    width: 10px;
+}
+
+div#hright ul li {
+    float: right;
+    display: inline;
+    border-right: 1px solid black;
+    padding: 0 5px;
+
+}
+
+nav div#dn ul li a:hover {
+    color: red;
+}
+
+nav {
+    clear: both;
+    border: 1px solid black;
+    background-color: greenyellow;
+    font-size: 20px;
+    height: 30px;
+}
+
+nav div#dn ul li {
+    text-emphasis-color: pink;
+    display: inline;
+    border-right: 1px solid red;
+    padding: 0 5px;
+}
+
+nav div#hright {
+    display: inline;
+    float: right;
+}
+
+nav div#dn ul li#last {
+    border-right: none;
+    padding-right: 0;
+}
+
+div#hright li#last {
+    border-right: none;
+    padding-right: 0;
+}
